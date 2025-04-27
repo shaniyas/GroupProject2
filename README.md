@@ -1,5 +1,4 @@
-# GroupProject2
-SQL Project 2
+# Group Project 2
 
 ## Team Name
 21479 Group 6
