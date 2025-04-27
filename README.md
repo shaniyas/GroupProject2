@@ -20,7 +20,8 @@ This data set provides import values of edible products (food and beverages) ent
 
 ## Question 1: Which regions export which commodities to the US?
 <img width="1431" alt="Screenshot 2025-04-22 at 12 02 09 PM" src="https://github.com/user-attachments/assets/279c56a4-1435-4d5c-84fa-63a59dc2377e" />
-**Data Manipulation:** The data included 61 countries. In order to put countries into their respective regions, we used a CASE WHEN statement in a calculated field, Region. For example, "CASE WHEN "Canada" THEN "North America". We also filtered out the countries that were uncategorized into a region (I.e. "Rest of World"). 
+**Data Manipulation:** 
+The data included 61 countries. In order to put countries into their respective regions, we used a CASE WHEN statement in a calculated field, Region. For example, "CASE WHEN "Canada" THEN "North America". We also filtered out the countries that were uncategorized into a region (I.e. "Rest of World"). 
 **Implications of Question 1:**
 
 **How the data can be used:**
@@ -29,7 +30,11 @@ This data set provides import values of edible products (food and beverages) ent
 
 
 ## Question 2: How have imports changed in the last 20 years?
-**Data Manipulation:** There were some uncategorized country fields: “World”, “World (quantity)”, and “Rest of World” that were filtered out. 
+<img width="1258" alt="Screenshot 2025-04-22 at 11 51 11 AM" src="https://github.com/user-attachments/assets/de192fc9-af65-4961-a65e-2e98ba8d57c8" />
+<img width="1257" alt="Screenshot 2025-04-22 at 11 51 20 AM" src="https://github.com/user-attachments/assets/0acc4ec4-5638-4a9a-a022-9187894e3d32" />
+
+**Data Manipulation:** 
+There were some uncategorized country fields: “World”, “World (quantity)”, and “Rest of World” that were filtered out. 
 
 **Implications of Question 1:**
 
