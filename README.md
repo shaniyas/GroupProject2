@@ -16,13 +16,24 @@ SQL Project 2
 ## Data Set Description
 The U.S. Food Imports data product is an annually published statistical summary of the value and volume of food imports coming into the United States.
 U.S. consumers demand variety, quality, and convenience in the foods they consume. As U.S. consumers have become wealthier and more ethnically diverse, their food basket reflects a growing share of tropical products, spices, and imported gourmet products.
-This data set provides import values of edible products (food and beverages) entering U.S. ports and the products’ origin of shipment. Data are from the U.S. Department of Commerce, Bureau of the Census. Food and beverage import values are compiled by calendar year into food groups, corresponding to major commodities or level of processing. The Harmonized System (HS) codes and the corresponding commodities and food products are detailed in the data product file. At least 20 years of annual data are included, enabling users to track long-term growth patterns
+This data set provides import values of edible products (food and beverages) entering U.S. ports and the products’ origin of shipment. The data comes from the U.S. Department of Commerce, Bureau of the Census. The dataset includes 7 columns. The columns for category, commodity, subcategory, UOM (unit of measurement), and country are all string types, with country also having a geographic role. The columns for food value and year are numbers. Food and beverage import values are compiled by calendar year into food groups, corresponding to major commodities or level of processing. The Harmonized System (HS) codes and the corresponding commodities and food products are detailed in the data file. 25 years of annual data are included, enabling users to track long-term growth patterns.
 
 ## Question 1: Which regions export which commodities to the US?
 <img width="1431" alt="Screenshot 2025-04-22 at 12 02 09 PM" src="https://github.com/user-attachments/assets/279c56a4-1435-4d5c-84fa-63a59dc2377e" />
-
+**Data Manipulation:** The data included 61 countries. In order to put countries into their respective regions, we used a CASE WHEN statement in a calculated field, Region. For example, "CASE WHEN "Canada" THEN "North America". We also filtered out the countries that were uncategorized into a region (I.e. "Rest of World"). 
 **Implications of Question 1:**
+
+**How the data can be used:**
+
+
 
 
 ## Question 2: How have imports changed in the last 20 years?
+**Data Manipulation:** There were some uncategorized country fields: “World”, “World (quantity)”, and “Rest of World” that were filtered out. 
+
+**Implications of Question 1:**
+
+**How the data can be used:**
+
+
 
