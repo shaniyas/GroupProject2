@@ -30,11 +30,13 @@ The data included 61 countries. In order to put countries into their respective 
 
 
 ## Question 2: How have imports changed in the last 20 years?
-<img width="1258" alt="Screenshot 2025-04-22 at 11 51 11 AM" src="https://github.com/user-attachments/assets/de192fc9-af65-4961-a65e-2e98ba8d57c8" />
-<img width="1257" alt="Screenshot 2025-04-22 at 11 51 20 AM" src="https://github.com/user-attachments/assets/0acc4ec4-5638-4a9a-a022-9187894e3d32" />
+<img width="892" alt="Screenshot 2025-04-27 at 5 05 45 PM" src="https://github.com/user-attachments/assets/3625b286-cd90-405f-96f3-1a245c8c7312" />
+<img width="894" alt="Screenshot 2025-04-27 at 5 05 29 PM" src="https://github.com/user-attachments/assets/9b215237-b890-44db-bbf4-b6d10fed2212" />
 
 **Data Manipulation:** 
-There were some uncategorized country fields: “World”, “World (quantity)”, and “Rest of World” that were filtered out. 
+There were some uncategorized country fields: “World”, “World (quantity)”, and “Rest of World” that were filtered out. We also created a calculated field to change the food value from millions to billions, for clarity.
+
+
 
 **Implications of Question 1:**
 
