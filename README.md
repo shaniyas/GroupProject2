@@ -19,8 +19,10 @@ This data set provides import values of edible products (food and beverages) ent
 
 ## Question 1: Which regions export which commodities to the US?
 <img width="1431" alt="Screenshot 2025-04-22 at 12 02 09 PM" src="https://github.com/user-attachments/assets/279c56a4-1435-4d5c-84fa-63a59dc2377e" />
+
 **Data Manipulation:** 
 The data included 61 countries. In order to put countries into their respective regions, we used a CASE WHEN statement in a calculated field, Region. For example, "CASE WHEN "Canada" THEN "North America". We also filtered out the countries that were uncategorized into a region (I.e. "Rest of World"). 
+
 **Implications of Question 1:**
 
 **How the data can be used:**
