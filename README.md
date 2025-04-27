@@ -21,7 +21,7 @@ This data set provides import values of edible products (food and beverages) ent
 <img width="1431" alt="Screenshot 2025-04-22 at 12 02 09 PM" src="https://github.com/user-attachments/assets/279c56a4-1435-4d5c-84fa-63a59dc2377e" />
 
 **Data Manipulation:** 
-The data included 61 countries. In order to put countries into their respective regions, we used a CASE WHEN statement in a calculated field, Region. For example, "CASE WHEN "Canada" THEN "North America". We also filtered out the countries that were uncategorized into a region (I.e. "Rest of World"). 
+The data included 61 countries. In order to put countries into their respective regions, we used a CASE WHEN statement in a calculated field, Region. For example, "CASE WHEN 'Canada' THEN 'North America'". We also filtered out the countries that were uncategorized into a region (I.e. "Rest of World"). 
 
 **Implications of Question 1:**
 The implications of Question 2 highlight two major themes. First, there is clear regional specialization in food production across the world. Different regions focus on specific categories: South America is known for fruits and coffee, Asia specializes in grains, fish, and nuts, while Europe is prominent in beverages, dairy, and cocoa. Understanding these specialization patterns can help optimize trade partnerships and supply chain logistics by leveraging regional strengths. Second, the U.S. food system shows a strong dependency on global markets. Many products, such as vegetables, meats, and spices, are sourced internationally. This reliance means that disruptions in specific regions—whether from conflict, policy changes, or climate events—can significantly impact certain sectors of the U.S. food supply.
