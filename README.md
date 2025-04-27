@@ -38,7 +38,7 @@ The data included 61 countries. In order to put countries into their respective 
 **Data Manipulation:** 
 There were some uncategorized country fields: “World”, “World (quantity)”, and “Rest of World” that were filtered out. We also created a calculated field to change the food value from millions to billions, for clarity.
 
-**Implications of Question 1:**
+**Implications of Question 2:**
 
 **How the data can be used:**
 
