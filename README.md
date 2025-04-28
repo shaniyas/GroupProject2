@@ -39,9 +39,13 @@ Policymakers can leverage these insights to identify critical supply chains and 
 There were some uncategorized country fields: “World”, “World (quantity)”, and “Rest of World” that were filtered out. We also created a calculated field to change the food value from millions to billions, for clarity.
 
 **Implications of Question 2:**
+This data can be used in several ways, depending on the audience. Policymakers can identify critical supply chains and focus on creating trade agreements or diversification strategies to strengthen food security. They can also monitor food security risks by understanding where import concentrations are highest. Importers and retailers can use the information to target supplier relationships in key regions for important commodities and to forecast demand and plan seasonal inventory based on historical patterns. Meanwhile, researchers and economists can analyze long-term shifts in U.S. food consumption trends and explore how cultural demographics relate to import growth.
 
 
-**How the data can be used:**
+
+
+**How the data can be used:** 
+Since 1999, food imports have steadily increased around the world. Canada’s imports, in particular, have grown sharply, showing greater demand and reliance on foreign supply. Similarly, countries like China, India, and Brazil are importing more as their incomes rise and diets change. However, this growing dependence on imports makes countries more vulnerable to disruptions. Trade restrictions, climate events, and conflicts can quickly threaten food security. Because of the interconnectedness of global supply chains, a crisis in one region can have ripple effects across many others.
 
 
 
