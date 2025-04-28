@@ -23,10 +23,10 @@ This data set provides import values of edible products (food and beverages) ent
 **Data Manipulation:** 
 The data included 61 countries. In order to put countries into their respective regions, we used a CASE WHEN statement in a calculated field, Region. For example, "CASE WHEN "Canada" THEN "North America". We also filtered out the countries that were uncategorized into a region (I.e. "Rest of World"). 
 
-**Implications of Question 1:**
+**Implications of Question 1:** Different regions around the world specialize in specific food categories, such as South America with fruits and coffee, Asia with grains, fish, and nuts, and Europe with beverages, dairy, and cocoa. These specialization patterns help optimize trade partnerships and supply chain logistics by focusing on regional strengths. However, the U.S. food system’s reliance on international sources for products like vegetables, meats, and spices also creates vulnerability. Disruptions in specific regions, whether from conflict, policy changes, or climate events, can significantly impact U.S. food sectors.
 
-**How the data can be used:**
 
+**How the data can be used:** This data can be used in several ways depending on the audience. Policymakers can identify critical supply chains and focus on creating trade agreements or diversification strategies to strengthen food security. They can also monitor food security risks by understanding where import concentrations are highest. Importers and retailers can use the information to target supplier relationships in key regions for important commodities and to forecast demand and plan seasonal inventory based on historical patterns. Meanwhile, researchers and economists can analyze long-term shifts in U.S. food consumption trends and explore how cultural demographics relate to import growth.
 
 
 
@@ -38,9 +38,10 @@ The data included 61 countries. In order to put countries into their respective 
 **Data Manipulation:** 
 There were some uncategorized country fields: “World”, “World (quantity)”, and “Rest of World” that were filtered out. We also created a calculated field to change the food value from millions to billions, for clarity.
 
-**Implications of Question 2:**
+**Implications of Question 2:** Since 1999, food imports have steadily increased around the world. Canada’s imports, in particular, have grown sharply, showing greater demand and reliance on foreign supply. Similarly, countries like China, India, and Brazil are importing more as their incomes rise and diets change. However, this growing dependence on imports makes countries more vulnerable to disruptions. Trade restrictions, climate events, and conflicts can quickly threaten food security. Because of the interconnectedness of global supply chains, a crisis in one region can have ripple effects across many others.
 
-**How the data can be used:**
+**How the data can be used:** This data can be used by different groups to make informed decisions. Policymakers can track the growing dependence on imports to improve national food security planning and prepare for future supply chain disruptions by identifying high-risk regions or overreliance on certain trade partners. Importers and retailers can adjust their sourcing strategies to lower risks from concentrated suppliers and use trends in import growth to better manage inventory and respond to changing consumer demand. Researchers and economists can study how economic growth relates to food import expansion across regions and assess how global trade policies and environmental events influence long-term import patterns.
+
 
 
 ## Tableau Packaged Workbook
